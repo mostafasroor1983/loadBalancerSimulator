@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: org.mostafa.RandomLoadBalancerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in org.mostafa.RandomLoadBalancerTest
+initializationError(org.mostafa.RandomLoadBalancerTest)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.Exception: Method steUp() should be public
+
+initializationError(org.mostafa.RandomLoadBalancerTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.Exception: Method ipIsNotNull() should be public
+
