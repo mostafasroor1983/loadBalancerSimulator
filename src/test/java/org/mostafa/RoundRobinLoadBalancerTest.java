@@ -4,14 +4,11 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.mostafa.loadbalancer.LoadBalancer;
-import org.mostafa.loadbalancer.RandomLoadBalancer;
 import org.mostafa.loadbalancer.RoundRobinBalancer;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.IntStream;
 
 public class RoundRobinLoadBalancerTest {
@@ -34,6 +31,8 @@ public class RoundRobinLoadBalancerTest {
         Assert.assertNotNull(ip);
     }
 
+
+    // simulate 15 requests in parallel
     @Test
     public void testNumberOfRequestForEachServer(){
         Map<String,Integer> map = new HashMap<>();

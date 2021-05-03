@@ -7,6 +7,8 @@ import java.util.List;
 public abstract class LoadBalancer {
     List<String> ipList;
     public LoadBalancer() {}
+
+    // load list of ip address
     public LoadBalancer(List<String> ipList) {
         this.ipList = Collections.unmodifiableList(ipList);
     }

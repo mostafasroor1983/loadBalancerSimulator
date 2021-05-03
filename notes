@@ -1,2 +1,11 @@
 How many servers do you want to sever using load balancer?
 What is the selection method do you want to do?
+
+====
+Load balancer in mechanism that can be implemented by reverse proxy to organize
+requests and load on many servers to be more productive and make high availablility and relaibility.
+
+There are many algorithms that orgnize load on servers such as randomly, round robin, weight round robin.
+I will try to implement load balancer that simulate all that three algorithms.
+
+I will use ip of server to select server.

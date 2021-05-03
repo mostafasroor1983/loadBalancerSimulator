@@ -14,7 +14,6 @@ import java.util.stream.IntStream;
 
 public class WeightedRoundRobinLoadBalancerTest {
     private static final int NUM_OF_REQUESTS = 15;
-    private static final int NUMBER_OF_REQUEST_PER_SERVER = 5;
     private static final int NUMBER_OF_SERVERS = 3;
 
     private static final String REPEATED_IP_3_TIMES = "222.4.5.3";

@@ -9,7 +9,7 @@ public class RandomLoadBalancer extends LoadBalancer {
         super(ipList);
     }
 
-    public RandomLoadBalancer() {}
+    public RandomLoadBalancer() {super();}
 
     @Override
     public String getIp() {
